@@ -8,7 +8,6 @@ public class Investimento {
         float resultado = 0.0f;
         for (int i = 1; i <= meses; i++) {
             resultado += valorar(valor);
-            valor += resultado;
         }
         return resultado + valor;
     }
